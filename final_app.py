@@ -41,7 +41,7 @@ with col2:
     st_chart = st.empty()
 
 # --- VIDEO LOGIC ---
-video_file = "traffic_video.mp4" # We use your existing video
+video_file = "traffic_video2.mp4" # We use your existing video
 cap = cv2.VideoCapture(video_file)
 
 # Lists to store data for the live chart
