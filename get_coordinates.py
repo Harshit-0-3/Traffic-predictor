@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # 1. Load the video
-video_path = "traffic_video2.mp4" 
+video_path = "traffic_video.mp4" 
 cap = cv2.VideoCapture(video_path)
 
 # This list will hold the points you click

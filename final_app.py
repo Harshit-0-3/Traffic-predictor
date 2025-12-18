@@ -29,12 +29,12 @@ def load_models():
 yolo_model, wait_time_model = load_models()
 
 # --- 1. VIDEO SOURCE ---
-video_file = "traffic_video2.mp4"  # Matches your renamed file
+video_file = "traffic_video.mp4"  # Matches your renamed file
 cap = cv2.VideoCapture(video_file)
 
 # --- 2. DEFINE THE ZONE (THE FILTER) ---
 # Your coordinates from the tool
-lane_zone = np.array([[6, 470], [363, 118], [490, 129], [500, 478]], np.int32)
+lane_zone = np.array([[121, 448], [296, 97], [384, 99], [629, 476]], np.int32)
 
 # --- LAYOUT SETUP (THE FIX) ---
 col1, col2 = st.columns([2, 1])
